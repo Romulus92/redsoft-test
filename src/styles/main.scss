@@ -1,0 +1,20 @@
+// resolutions
+$macbookair: 1366px;
+$bignotebooks: 1280px;
+$notebooks: 1160px;
+$netbooks: 1024px;
+$tablets: 823px;
+$minitablets: 602px;
+$phones: 480px;
+$iphones: 320px;
+$phonesheight: 415px;
+//vendors
+// media
+@import "layout/_media";
+// config
+@import "config/_variables";
+@import "config/_mixins";
+// base
+@import "layout/_fonts";
+@import "layout/_base";
+//Sections

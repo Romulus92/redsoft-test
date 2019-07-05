@@ -1,0 +1,35 @@
+@function rem($px) {
+  @return ($px / 16px) + 0rem;
+}
+
+@function vw($px) {
+  @return ($px / 1170 + 0vw)*100;
+}
+
+@function vh($px) {
+  @return ($px / 717 + 0vh)*100;
+}
+
+@mixin notebooks {
+  @media screen and (max-width: $notebooks) {
+    @content;
+  }
+}
+
+@mixin netbooks {
+  @media screen and (max-width: $netbooks) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width: $phones) {
+    @content;
+  }
+}
